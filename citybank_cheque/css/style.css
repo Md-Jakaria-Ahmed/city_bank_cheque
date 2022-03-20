@@ -1,0 +1,60 @@
+*{
+  margin:0;padding: 0;box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: 'verdana'; margin: 0 0 15px;
+    font-weight: 700; font-size: 15px; }
+body {
+    font-family: 'verdana';   
+}
+p{ font-family: 'verdana'; font-weight: 300; color:#3D4150; }
+
+.bottomstyle{
+  padding-bottom: 75px;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*--account info css --*/
+.header{
+    background: #F3F3F3;
+    padding-top: 45px;
+    display:flex;
+    font-family: sans-serif;
+}
+.logo {
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    margin-left: 52px;
+    margin-right: 35px;
+}
+.top{
+    width: 630px; 
+    float: left; 
+    overflow: hidden; 
+    padding-left: 0px;
+    margin-left: -20px;
+}
+
+.right{
+    float: right;
+    margin-top: 25px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    padding: 0 50px;
+    margin: 0 auto;
+   /* padding-top: 20px;*/
+    line-height: 40px;
+}
+
+
+  td{
+    margin-left: 2px;
+    padding: 7px;
+    border: 1px solid #000;
+  }
